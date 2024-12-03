@@ -1,15 +1,37 @@
+import { useState } from 'react'
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
+import Bookmarks from './components/Bookmarks/Bookmarks'
 import Header from './components/Header/Header'
 
 function App() {
+  const [bookmarks,setBookmarks]=useState([]);
+  const [readingTime,SetReadingTime]=useState(0);
+
+  const handleAddToBookmark=blog=>{
+    const newBookmarks=[...bookmarks,blog]
+    setBookmarks(newBookmarks);
+  }
+
+  const handleMarksAsRead=(id,time)=>{
+    const newReadingTime=readingTime+time;
+    SetReadingTime(newReadingTime);
+    const remainingBookmarks=bookmarks.filter(bookmark=>bookmark.id!==id)
+    setBookmarks(remainingBookmarks);
+  }
 
 
   return (
     <>
      
       <Header></Header>
-      <Blogs></Blogs>
+
+
+     <div className='md:flex  max-w-7xl mx-auto'>
+     <Blogs handleAddToBookmark={handleAddToBookmark}  handleMarksAsRead={handleMarksAsRead}></Blogs>
+     <Bookmarks bookmarks={bookmarks} readingTime={readingTime} ></Bookmarks>
+     </div>
+
      
     </>
   )
