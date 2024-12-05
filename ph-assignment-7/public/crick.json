@@ -1,0 +1,109 @@
+[
+    {
+      "Name": "Sakib",
+      "Country": "Bangladesh",
+      "Image": "https://i.ibb.co.com/fq1rmCY/Tanzim-Sakib.jpg",
+      "PlayerType": "Allrounder",
+      "BattingSide": "Right",
+      "Price": 150000
+    },
+    {
+      "Name": "James Anderson",
+      "Country": "England",
+      "Image": "https://i.ibb.co.com/HVCNdvv/384902.webp",
+      "PlayerType": "Bowler",
+      "BattingSide": "Left",
+      "Price": 200000
+    },
+    {
+        "Name": "Shadab Khan",
+        "Country": "Pakistan",
+        "Image": "https://i.ibb.co.com/CHzBxwm/shadab.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Right",
+        "Price": 180000
+      },
+      {
+        "Name": "Ben Stokes",
+        "Country": "England",
+        "Image": "https://i.ibb.co.com/b5sZqTf/ben-stokes.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Left",
+        "Price": 175000
+      },
+      {
+        "Name": "Jason Holder",
+        "Country": "West Indies",
+        "Image": "https://i.ibb.co.com/jGry6Fb/holder.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Right",
+        "Price": 160000
+      },
+      {
+        "Name": "Mitchell Santner",
+        "Country": "New Zealand",
+        "Image": "https://i.ibb.co.com/3hp5LmZ/santner.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Left",
+        "Price": 170000
+      },
+      {
+        "Name": "Mehidy Hasan Miraz",
+        "Country": "Bangladesh",
+        "Image": "https://i.ibb.co.com/WVvcYvr/miraz.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Right",
+        "Price": 140000
+      },
+      {
+        "Name": "Marco Jansen",
+        "Country": "South Africa",
+        "Image": "https://i.ibb.co.com/WP3rNyD/Jansen.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Left",
+        "Price": 220000
+      },
+     
+      {
+        "Name": "Sam Curran",
+        "Country": "England",
+        "Image": "https://i.ibb.co.com/g9LVGP4/sam.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Left",
+        "Price": 190000
+      },
+      {
+        "Name": "Imad Wasim",
+        "Country": "Pakistan",
+        "Image": "https://i.ibb.co.com/LtR29nk/Imad.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Left",
+        "Price": 210000
+      },
+      {
+        "Name": "Cameron Green",
+        "Country": "Australia",
+        "Image": "https://i.ibb.co.com/QQtmjbN/Cameron.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Right",
+        "Price": 185000
+      },
+      {
+        "Name": "Andre Russell",
+        "Country": "West Indies",
+        "Image": "https://i.ibb.co.com/54Jsyfk/Russell.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Right",
+        "Price": 165000
+      },
+      {
+        "Name": "Michael Bracewell",
+        "Country": "New Zealand",
+        "Image": "https://i.ibb.co.com/M6s5ryQ/bracewell-new-3.jpg",
+        "PlayerType": "Allrounder",
+        "BattingSide": "Left",
+        "Price": 195000
+      }
+   
+  ]
+  
