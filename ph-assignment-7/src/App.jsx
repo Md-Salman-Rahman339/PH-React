@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import Cricketers from "./components/Cricketers/Cricketers";
 import Navbar from "./components/Navbar/Navbar";
 import SelectedPlayers from "./components/SelectedPlayers/SelectedPlayers";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [coin, setCoin] = useState(0);
@@ -86,7 +87,9 @@ function App() {
           handleRemovePlayer={handleRemovePlayer}
         />
       )}
+       <Footer></Footer>
     </div>
+   
   );
 }
 
