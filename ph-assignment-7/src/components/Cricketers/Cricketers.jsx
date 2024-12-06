@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Cricketer from '../Cricketer/Cricketer'
-const Cricketers = () => {
+const Cricketers = ({handleChoosePlayer}) => {
   const[cricketers,setCricketers]=useState([])
 
   useEffect(()=>{
@@ -15,7 +15,7 @@ const Cricketers = () => {
     <div className=' grid grid-cols-3 '>
       
       {
-        cricketers.map(cricketer=> <Cricketer key={cricketer.id}  cricketer={cricketer}></Cricketer>)
+        cricketers.map(cricketer=> <Cricketer key={cricketer.id}  cricketer={cricketer} handleChoosePlayer={handleChoosePlayer} ></Cricketer>)
       }
     </div>
     </>

@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png'
-const Navbar = () => {
+const Navbar = ({coin}) => {
   return (
 
     <>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 <li><a>Teams</a></li>
                 <li><a>Schedules</a></li>
               </ul>
-              <a className="btn">Coin:0</a>
+              <a  className="btn">Coin:{coin}</a>
             </div>
            
               

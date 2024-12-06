@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Cricketer = ({cricketer}) => {
+const Cricketer = ({cricketer,handleChoosePlayer}) => {
     const {Name,Country,Image,PlayerType,BattingSide,Price}=cricketer;
   return (
     <div className=" mb-6 w-96 h-96 border border-white-700 rounded-xl ">
@@ -26,7 +26,7 @@ const Cricketer = ({cricketer}) => {
 
           <div className='text-end mb-4 flex gap-16'>
           <h4>Price:{Price}</h4>
-          <button className="btn btn-primary bg-slate-200 text-black text-sm px-4 py-2 rounded">Choose Player</button>
+          <button onClick={()=>handleChoosePlayer(cricketer)} className="btn btn-primary bg-slate-200 text-black text-sm px-4 py-2 rounded">Choose Player</button>
           </div>
         </div>
       </div>
