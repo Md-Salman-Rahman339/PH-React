@@ -1,0 +1,153 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Smartphone X1",
+      "product_image": "https://i.ibb.co.com/TkcBRYB/s1.jpg",
+      "category": "Smartphones",
+      "price": 699,
+      "description": "A powerful smartphone with cutting-edge features.",
+      "Specification": [
+        "6.5-inch OLED Display",
+        "128GB Storage",
+        "Triple Camera System"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 2,
+      "product_title": "Smartphone Y2",
+      "product_image": "https://i.ibb.co.com/kMwL7L0/s2.jpg",
+      "category": "Smartphones",
+      "price": 849,
+      "description": "A high-performance smartphone with an exceptional camera.",
+      "Specification": [
+        "6.7-inch AMOLED Display",
+        "256GB Storage",
+        "Quad Camera Setup"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 3,
+      "product_title": "Smartphone Z3",
+      "product_image": "https://i.ibb.co.com/D8fSJpg/s3.jpg",
+      "category": "Smartphones",
+      "price": 599,
+      "description": "An affordable smartphone with premium features.",
+      "Specification": [
+        "6.4-inch LCD Display",
+        "64GB Storage",
+        "Dual Camera"
+      ],
+      "availability": true,
+      "rating": 4.2
+    },
+    {
+      "product_id": 4,
+      "product_title": "Laptop A1",
+      "product_image": "https://i.ibb.co.com/yBCPWPR/l1.jpg",
+      "category": "Laptops",
+      "price": 999,
+      "description": "A lightweight laptop for professionals.",
+      "Specification": [
+        "15.6-inch Full HD Display",
+        "512GB SSD",
+        "8GB RAM"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 5,
+      "product_title": "Laptop B2",
+      "product_image": "",
+      "category": "Laptops",
+      "price": 1299,
+      "description": "A high-performance laptop for creators.",
+      "Specification": [
+        "16-inch Retina Display",
+        "1TB SSD",
+        "16GB RAM"
+      ],
+      "availability": false,
+      "rating": 4.9
+    },
+    {
+      "product_id": 6,
+      "product_title": "Laptop C3",
+      "product_image": "",
+      "category": "Laptops",
+      "price": 849,
+      "description": "An affordable laptop for everyday use.",
+      "Specification": [
+        "14-inch Full HD Display",
+        "256GB SSD",
+        "8GB RAM"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 7,
+      "product_title": "Smartwatch P1",
+      "product_image": "",
+      "category": "Smartwatches",
+      "price": 199,
+      "description": "A stylish smartwatch with health tracking features.",
+      "Specification": [
+        "1.4-inch AMOLED Display",
+        "Heart Rate Monitoring",
+        "GPS"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 8,
+      "product_title": "Smartwatch Q2",
+      "product_image": "https://i.ibb.co.com/gMbHMYG/w2.jpg",
+      "category": "Smartwatches",
+      "price": 249,
+      "description": "A rugged smartwatch for outdoor activities.",
+      "Specification": [
+        "1.6-inch LCD Display",
+        "Sleep Tracking",
+        "Waterproof"
+      ],
+      "availability": false,
+      "rating": 4.5
+    },
+    {
+      "product_id": 9,
+      "product_title": "Smartwatch R3",
+      "product_image": "https://i.ibb.co.com/5WhT5tK/w3.webp",
+      "category": "Smartwatches",
+      "price": 299,
+      "description": "A premium smartwatch with advanced fitness tracking.",
+      "Specification": [
+        "1.8-inch AMOLED Display",
+        "Blood Oxygen Monitoring",
+        "Voice Assistant"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 10,
+      "product_title": "SmartWatch W4",
+      "product_image": "https://i.ibb.co.com/yfk0Cvf/w4.jpg",
+      "category": "Smartwatches",
+      "price": 749,
+      "description": "A smartphone designed for gaming enthusiasts.",
+      "Specification": [
+        "6.8-inch AMOLED Display",
+        "512GB Storage",
+        "Gaming Processor"
+      ],
+      "availability": true,
+      "rating": 4.6
+    }
+  ]
+  

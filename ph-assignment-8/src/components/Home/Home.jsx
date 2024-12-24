@@ -1,15 +1,29 @@
-import React from 'react'
+
 import Banner from '../Banner/Banner'
 import Navbar from '../Navbar/Navbar'
 import Gadgets from '../Gadgets/Gadgets'
+import TabsG from '../TabsG/TabsG'
 
 const Home = () => {
   return (
     <div className='gap-x-10'>
        
-      <h1>This is Home page</h1>
+      
       <Banner></Banner>
-      <Gadgets></Gadgets>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    <div className=''>
+
+    <TabsG></TabsG>
+    </div>
+      {/* <Gadgets></Gadgets> */}
     </div>
   )
 }

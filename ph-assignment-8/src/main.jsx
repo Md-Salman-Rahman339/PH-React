@@ -11,6 +11,7 @@ import "./index.css";
 import Roots from "./components/Roots/Roots";
 import Errorpage from "./components/Errorpage/Errorpage";
 import Home from "./components/Home/Home";
+import GadgetsDetails from "./components/GadgetsDetails/GadgetsDetails";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,19 @@ const router = createBrowserRouter([
       {
         path:'home/',
         element:<Home></Home>
+      },
+    {
+      path: 'details/:product_id',
+      element: <GadgetsDetails />,
+      loader: async () => {
+        const response = await fetch('/gadgetsData.json');
+        if (!response.ok) {
+          throw new Error('Failed to load data');
+        }
+        return response.json();
       }
+     },
+      
     ]
   },
 ]);

@@ -1,22 +1,29 @@
-import React from 'react'
-
+import React, { useEffect, useState } from 'react'
+import Gadget from '../Gadget/Gadget';
+import TabsG from '../TabsG/TabsG';
+import GadgetsDetails from '../GadgetsDetails/GadgetsDetails';
 const Gadgets = () => {
+  const [gadgets,setGadgets]=useState([]);
+
+  useEffect(()=>{
+    fetch('/gadgetsData.json')
+    .then(res=>res.json())
+    .then(data=>{
+      setGadgets(data);
+    })
+  },[])
+  if (gadgets.length === 0) {
+    return <p>Loading gadgets...</p>; 
+  }
   return (
-    <div className="card bg-base-100 h-1/6 w-1/4 shadow-xl">
-  <figure className="px-10 pt-10">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes"
-      className="rounded-xl" />
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
+  <div>
+     {/* {
+      gadgets.map(gadget=> <Gadget gadget={gadget} key={gadget.product_id}></Gadget>)
+      
+
+    }   */}
+    
   </div>
-</div>
   )
 }
 
