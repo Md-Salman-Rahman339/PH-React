@@ -62,7 +62,7 @@
     {
       "product_id": 5,
       "product_title": "Laptop B2",
-      "product_image": "",
+      "product_image": "https://i.ibb.co.com/nMvD4dp/b21.webp",
       "category": "Laptops",
       "price": 1299,
       "description": "A high-performance laptop for creators.",
@@ -77,7 +77,7 @@
     {
       "product_id": 6,
       "product_title": "Laptop C3",
-      "product_image": "",
+      "product_image": "https://i.ibb.co.com/rmw4WyZ/laptopc3.jpg",
       "category": "Laptops",
       "price": 849,
       "description": "An affordable laptop for everyday use.",
@@ -92,7 +92,7 @@
     {
       "product_id": 7,
       "product_title": "Smartwatch P1",
-      "product_image": "",
+      "product_image": "https://i.ibb.co.com/8s7fgx0/p1w.webp",
       "category": "Smartwatches",
       "price": 199,
       "description": "A stylish smartwatch with health tracking features.",

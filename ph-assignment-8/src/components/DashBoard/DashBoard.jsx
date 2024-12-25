@@ -1,4 +1,4 @@
-import  { useContext, useState } from 'react';
+import  { useContext, useState,useEffect } from 'react';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { cartC } from '../CartContext/CartContext';
@@ -29,6 +29,9 @@ const Dashboard = () => {
     setCart(updatedCart);
     navigate("/"); 
   };
+  useEffect(() => {
+    document.title = "Dashboard ";  
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-100">
