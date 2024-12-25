@@ -12,7 +12,8 @@ import Roots from "./components/Roots/Roots";
 import Errorpage from "./components/Errorpage/Errorpage";
 import Home from "./components/Home/Home";
 import GadgetsDetails from "./components/GadgetsDetails/GadgetsDetails";
-
+import CartContext from './components/CartContext/CartContext';
+import DashBoard from "./components/DashBoard/DashBoard";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +23,11 @@ const router = createBrowserRouter([
       {
         path:'home/',
         element:<Home></Home>
+      },
+      {
+        path:'dash/',
+        element:<DashBoard></DashBoard>
+
       },
     {
       path: 'details/:product_id',
@@ -40,6 +46,10 @@ const router = createBrowserRouter([
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+   
+   <CartContext>
+   <RouterProvider router={router} />
+   </CartContext>
+ 
   </React.StrictMode>
 );

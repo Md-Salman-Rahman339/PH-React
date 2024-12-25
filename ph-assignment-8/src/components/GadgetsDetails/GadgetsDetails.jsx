@@ -1,9 +1,12 @@
 
 import {  useLoaderData, useParams } from 'react-router-dom';
-
+import { cartC } from '../CartContext/CartContext';
+import { useContext } from 'react';
 const GadgetsDetails = () => {
   const { product_id } = useParams();
   const data = useLoaderData();
+  const {addToCart,addToWishList}=useContext(cartC);
+  
 
 
   if (!data) {
@@ -31,7 +34,7 @@ const GadgetsDetails = () => {
   return (
     <div className="card card-side bg-base-100 shadow-xl rounded-lg border border-fuchsia-700 ">
       <figure>
-        <img src={product_image} alt={product_title} />
+        <img className='rounded-md' src={product_image} alt={product_title} />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{product_title}</h2>
@@ -61,7 +64,8 @@ const GadgetsDetails = () => {
           ))}
         </div>
         <div className="card-actions">
-          <button className="btn btn-primary">Add To Cart</button>
+          <button className="btn btn-primary" onClick={()=>addToCart(gadget)}>Add To Cart</button>
+          <button className="btn btn-primary" onClick={()=>addToWishList(gadget)}>WishList</button>
         </div>
       </div>
     </div>

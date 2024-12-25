@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='gap-4 flex btn-sm '>
     <li><NavLink to="/home">Home</NavLink></li>
     <li> <NavLink >Statistics</NavLink> </li>
-    <li> <NavLink >Dashboard</NavLink> </li>
+    <li> <NavLink to='dash/' >Dashboard</NavLink> </li>
     </div>
     </>
   return (
