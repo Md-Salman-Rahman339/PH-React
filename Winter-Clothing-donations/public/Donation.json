@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "title": "Warm Hearts Dhaka Campaign",
+      "image": "https://i.ibb.co.com/zQvrpSg/1.jpg",
+      "description": "Providing warm clothing to underprivileged families in Dhaka's slum areas.",
+      "status": "Active",
+      "contactInfo": "+8801234567890, warmhearts@donation.org",
+      "division": "Dhaka"
+    },
+    {
+      "id": 2,
+      "title": "Chattogram Winter Relief",
+      "image": "https://i.ibb.co.com/zJHb1D4/2.jpg",
+      "description": "Distributing blankets and jackets to rural communities in Chattogram.",
+      "status": "Active",
+      "contactInfo": "+8801987654321, chattogramrelief@donation.org",
+      "division": "Chattogram"
+    },
+    {
+      "id": 3,
+      "title": "Sylhet Warmth Initiative",
+      "image": "https://i.ibb.co.com/c33gCbn/3.jpg",
+      "description": "Helping tea garden workers and their families stay warm this winter.",
+      "status": "Completed",
+      "contactInfo": "+8801122334455, sylhetwarmth@donation.org",
+      "division": "Sylhet"
+    },
+    {
+      "id": 4,
+      "title": "Barishal Blanket Drive",
+      "image": "https://i.ibb.co.com/b5bgvXS/4.jpg",
+      "description": "Collecting and distributing blankets for flood-affected areas in Barishal.",
+      "status": "Ongoing",
+      "contactInfo": "+8805566778899, barishalblanket@donation.org",
+      "division": "Barishal"
+    },
+    {
+      "id": 5,
+      "title": "Rajshahi Winter Care",
+      "image": "https://i.ibb.co.com/dJ02TzX/5.jpg",
+      "description": "Providing warm clothing to low-income families in rural Rajshahi.",
+      "status": "Active",
+      "contactInfo": "+8806677889900, rajshahiwinter@donation.org",
+      "division": "Rajshahi"
+    }
+  ]
+  
