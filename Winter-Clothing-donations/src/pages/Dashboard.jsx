@@ -18,7 +18,7 @@ const Dashboard = () => {
             />
             <h3 className="text-xl font-semibold">{user.displayName}</h3>
             <p className="text-gray-600">{user.email}</p>
-            <Link to="/profile" className="btn btn-neutral mt-6">Edit Profile</Link>
+            <Link to="/auth/update_profile" className="btn btn-neutral mt-6">Update Profile</Link>
           </div>
         ) : (
           <p className="text-center text-red-500">No user data available. Please log in.</p>
