@@ -41,6 +41,7 @@ const Navbar = () => {
       <li><a>How To Help</a></li>
       {user && user?.email?(
  <li><Link to="/auth/dashboard"><a>Dashboard</a></Link></li>
+       
       ):(
         <></>
       )}
@@ -50,6 +51,7 @@ const Navbar = () => {
 
   <div className="navbar-end">
     {user && user?.email?(
+     
       <button onClick={logOut} className="btn btn-neutral rounded-none">
       Log-Out
     </button>
