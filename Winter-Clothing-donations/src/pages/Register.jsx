@@ -1,10 +1,12 @@
-import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useContext,useState } from 'react'
+import { Link ,useNavigate} from 'react-router-dom'
 import { AuthContext } from '../provider/AuthProvider'
 const Register = () => {
 
 
-  const {createNewUser,setUser}=useContext(AuthContext);
+  const {createNewUser,setUser,updateUserProfile}=useContext(AuthContext);
+  const navigate = useNavigate();
+  const [showPassword, setShowPassword] = useState(false);
 
   const handleSubmit=(e)=>{
     e.preventDefault();
@@ -19,6 +21,8 @@ const Register = () => {
     .then((result)=>{
       const user=result.user;
       setUser(user);
+      updateUserProfile({displayName:name,photoURL:photo})
+      navigate('/');
       console.log(user)
     })
     .catch((error)=>{
@@ -78,15 +82,18 @@ const Register = () => {
           </label>
           <input
           name='password'
-            type="password"
+            type={showPassword?'text':'password'}
             placeholder="password"
             className="input input-bordered"
             required
           />
+           <button type="button" onClick={() => setShowPassword(!showPassword)}>
+          {showPassword ? 'Hide' : 'Show'}
+        </button>
           <label className="label">
-            <a href="#" className="label-text-alt link link-hover">
+            <Link to='/auth/forgot-password' className="label-text-alt link link-hover">
               Forgot password?
-            </a>
+            </Link>
           </label>
         </div>
         <div className="form-control mt-6">

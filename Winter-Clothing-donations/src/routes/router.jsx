@@ -7,6 +7,8 @@ import Register from '../pages/Register';
 import PrivateRoute from './PrivateRoute';
 import AuthProvider from '../provider/AuthProvider';
 import Dashboard from '../pages/Dashboard';
+import ForgotPassword from '../pages/ForgotPassword';
+import UpdateProfile from '../pages/UpdateProfile';
 
 const router = createBrowserRouter([
     {
@@ -46,6 +48,16 @@ const router = createBrowserRouter([
                     <Dashboard></Dashboard>
                 </PrivateRoute>
             
+           },
+           {
+            path:'/auth/forgot-password',
+            element:<ForgotPassword></ForgotPassword>
+
+           },
+           {
+            path:'/auth/update_profile',
+            element:<UpdateProfile></UpdateProfile>
+
            },
         ]
     }
